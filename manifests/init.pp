@@ -1,11 +1,8 @@
-# == Class: arduino
+# Public: Install Latest stable Arduino.app into /Applications.
 #
-# Installs the latest version of the Arduino Mac application
+# Examples
 #
-# === Authors
-#
-# Robby Colvin <geetarista@gmail.com>
-#
+#   include arduino
 class arduino {
   package { 'Arduino':
     provider => 'compressed_app',

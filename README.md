@@ -1,11 +1,25 @@
-# Arduino Puppet Module for Boxen [![Build Status](https://travis-ci.org/boxen/puppet-arduino.png?branch=master)](https://travis-ci.org/boxen/puppet-arduino)
+# Arduino Puppet Module for Boxen
 
-Installs the Arduino Mac app.
+[![Build+Status](https://travis-ci.org/boxen/puppet-arduino.png?branch=master)](https://travis-ci.org/boxen/puppet-arduino)
+
+Install [Arduino](http://www.arduino.cc/) SDK for Mac OS X.
 
 ## Usage
 
 ```puppet
 include arduino
+```
+
+If you would like the beta version:
+
+```puppet
+include arduino::beta
+```
+
+Or a nightly:
+
+```puppet
+include arduino::nightly
 ```
 
 ## Required Puppet Modules
@@ -14,7 +28,4 @@ include arduino
 
 ## Development
 
-Set `GITHUB_API_TOKEN` in your shell with a [Github oAuth Token](https://help.github.com/articles/creating-an-oauth-token-for-command-line-use) to raise your API rate limit. You can get some work done without it, but you're less likely to encounter errors like `Unable to find module 'boxen/puppet-boxen' on https://github.com`.
-
-Then write some code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+Write code. Run `script/cibuild` to test it. Check the `script` directory for other useful tools.
