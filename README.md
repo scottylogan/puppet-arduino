@@ -16,6 +16,14 @@ If you would like the beta version:
 include arduino::beta
 ```
 
+If you would like the beta version with Java 7 support:
+
+```puppet
+class { 'arduino::beta':
+  $java_version => 7,
+}
+```
+
 Or a nightly:
 
 ```puppet
