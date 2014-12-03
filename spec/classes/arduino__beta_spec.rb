@@ -5,7 +5,7 @@ describe "arduino::beta" do
   describe 'when not specifying a java version' do
     it { should contain_package('Arduino').with({
       :provider => 'compressed_app',
-      :source => 'http://downloads.arduino.cc/arduino-1.5.7-macosx.zip',
+      :source => 'http://arduino.cc/download.php?f=/arduino-1.5.8-macosx.zip',
     })}
   end
 
@@ -14,7 +14,7 @@ describe "arduino::beta" do
     
     it { should contain_package('Arduino').with({
       :provider => 'compressed_app',
-      :source => 'http://downloads.arduino.cc/arduino-1.5.7-macosx-java7-r2.zip',
+      :source => 'http://arduino.cc/download.php?f=/arduino-1.5.8-macosx-java7.zip',
     })}
   end
 end
