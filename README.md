@@ -1,6 +1,6 @@
 # Arduino Puppet Module for Boxen
 
-[![Build+Status](https://travis-ci.org/boxen/puppet-arduino.png?branch=master)](https://travis-ci.org/boxen/puppet-arduino)
+[![Build+Status](https://travis-ci.org/scottylogan/puppet-arduino.png?branch=master)](https://travis-ci.org/scottylogan/puppet-arduino)
 
 Install [Arduino](http://www.arduino.cc/) SDK for Mac OS X.
 
