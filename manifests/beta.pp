@@ -9,8 +9,8 @@ class arduino::beta (
 
   Package['Arduino'] {
     source  => $java_version ? {
-      7       => 'http://arduino.cc/download.php?f=/arduino-1.5.8-macosx-java7.zip',
-      default => 'http://arduino.cc/download.php?f=/arduino-1.5.8-macosx.zip',
+      7       => 'http://arduino.cc/download.php?f=/arduino-1.6.1-macosx-java7.zip',
+      default => 'http://arduino.cc/download.php?f=/arduino-1.6.1-macosx.zip',
     },
   }
 }
