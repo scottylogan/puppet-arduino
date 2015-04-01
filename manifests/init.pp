@@ -6,6 +6,6 @@
 class arduino {
   package { 'Arduino':
     provider => 'compressed_app',
-    source   => 'http://arduino.googlecode.com/files/arduino-1.6.1-macosx.zip',
+    source   => 'http://arduino.googlecode.com/files/arduino-1.6.2-macosx.zip',
   }
 }
