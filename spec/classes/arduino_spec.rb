@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 classes = {
-  'arduino'          => 'http://downloads.arduino.cc/arduino-1.6.3-macosx.zip',
+  'arduino'          => 'http://downloads.arduino.cc/arduino-1.6.4-macosx.zip',
   'arduino::nightly' => 'http://downloads.arduino.cc/arduino-nightly-macosx.zip'
 }
 
